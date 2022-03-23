@@ -8,7 +8,7 @@ const Navbar = () => (
                     <figure className="image is-24x24 is-pulled-left">
                         <img className="" alt="" src="/assets/logo/la-boite-jaune.png"/>
                     </figure>
-                    <span className="is-bold is-uppercase is-size-4">La Boîte Jaune</span>
+                    <span id="appName" className="is-bold is-uppercase is-size-4">La Boîte Jaune</span>
                 </div>
             </a>
 
@@ -20,17 +20,11 @@ const Navbar = () => (
             </a>
         </div>
 
-        {/*<div id="navbarBasicExample" className="navbar-menu">
+   {/*     <div id="navbarBasicExample" className="navbar-menu">
             <div className="navbar-end">
-                <div className="navbar-item">
-                    <div className="buttons">
-                        <Link href="#contact-form">
-                            <a className="button">
-                                <strong>Nous suivre</strong>
-                            </a>
-                        </Link>
-                    </div>
-                </div>
+                <a className="navbar-item">
+                    CGV
+                </a>
             </div>
         </div>*/}
     </nav>
