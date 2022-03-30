@@ -19,7 +19,7 @@ export function Layout({children}: LayoutProps) {
                     <div className="container">
                         <div className="columns is-centered is-mobile">
                             <div className="column is-half has-text-centered">
-                                <Link href="/cgv">Conditions générales d'utilisation</Link>
+                                <Link href="/cgu">Conditions générales d'utilisation</Link>
                             </div>
                         </div>
                         <div className="columns is-centered is-mobile">
